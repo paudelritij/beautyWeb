@@ -1,18 +1,55 @@
-.icontainer {
-  position: relative;
-  text-align: center;
-  color: white;
+body, html {
+	height: 100%;
+  }
+  
+}
+.bbgimg-1 {
+  background-image: url("img_parallax.jpg");
+  min-height: 100%;
 }
 
-.top-left {
+
+.bcaption {
   position: absolute;
-  top: 8px;
-  left: 16px;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.bcaption span.bborder {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
 }
 
 
+  .parallax, .dparallax {
+	/* The image used */
+	background-image: url('img/art.jpg');
+  
+	/* Full height */
+	height: 70%; 
+  
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+  }
+  
+  /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+  @media only screen and (max-device-width: 1366px) {
+	.parallax {
+	  background-attachment: scroll;
+	}
+  }
 
 
+  
 
 
 
